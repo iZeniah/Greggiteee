@@ -7,6 +7,16 @@
     android:background="#28293B"
     >
 
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Group 4: Quadros Copyright Inc"
+        android:textColor="#FBFAFA"
+        android:textSize="10sp"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="711dp" />
+
     <ProgressBar
         android:id="@+id/progressbar2"
         style="@android:style/Widget.ProgressBar.Horizontal"
