@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#28293B">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Group 4: Quadros Copyright Inc"
+        android:textColor="#FBFAFA"
+        android:textSize="10sp"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="711dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/edited"
+        tools:layout_editor_absoluteX="141dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/alex_brush"
+        android:text="Greggite"
+        android:textColor="#FFFFFF"
+        android:textSize="60sp"
+        tools:layout_editor_absoluteX="115dp"
+        tools:layout_editor_absoluteY="189dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button3"
+        android:layout_width="162dp"
+        android:layout_height="37dp"
+        android:background="@drawable/button_"
+        android:text="Exit"
+        android:textColor="#FAF6F6"
+        tools:layout_editor_absoluteX="124dp"
+        tools:layout_editor_absoluteY="566dp">
+
+    </androidx.appcompat.widget.AppCompatButton>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button5"
+        android:layout_width="162dp"
+        android:layout_height="37dp"
+        android:background="@drawable/button_"
+        android:text="About"
+        android:textColor="#FAF6F6"
+        tools:layout_editor_absoluteX="124dp"
+        tools:layout_editor_absoluteY="508dp">
+
+    </androidx.appcompat.widget.AppCompatButton>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button2"
+        android:layout_width="162dp"
+        android:layout_height="37dp"
+        android:background="@drawable/button_"
+        android:text="Option"
+        android:textColor="#FAF6F6"
+        tools:layout_editor_absoluteX="124dp"
+        tools:layout_editor_absoluteY="449dp">
+
+    </androidx.appcompat.widget.AppCompatButton>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button"
+        android:layout_width="162dp"
+        android:layout_height="37dp"
+        android:background="@drawable/button_"
+        android:text="Play"
+        android:textColor="#FAF6F6"
+        tools:layout_editor_absoluteX="124dp"
+        tools:layout_editor_absoluteY="330dp">
+
+    </androidx.appcompat.widget.AppCompatButton>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button4"
+        android:layout_width="162dp"
+        android:layout_height="37dp"
+        android:background="@drawable/button_"
+        android:text="Leaderboards"
+        android:textColor="#FAF6F6"
+        tools:layout_editor_absoluteX="124dp"
+        tools:layout_editor_absoluteY="388dp">
+
+    </androidx.appcompat.widget.AppCompatButton>
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        app:srcCompat="@drawable/ig"
+        tools:layout_editor_absoluteX="314dp"
+        tools:layout_editor_absoluteY="679dp" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        app:srcCompat="@drawable/fb"
+        tools:layout_editor_absoluteX="268dp"
+        tools:layout_editor_absoluteY="679dp" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        app:srcCompat="@drawable/twitter"
+        tools:layout_editor_absoluteX="361dp"
+        tools:layout_editor_absoluteY="679dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

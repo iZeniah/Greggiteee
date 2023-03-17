@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#28293B">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="48dp"
+        android:layout_height="58dp"
+        app:srcCompat="@drawable/lovepik_com_611583910_vector_hand_drawn_cartoon_trophy"
+        tools:layout_editor_absoluteX="248dp"
+        tools:layout_editor_absoluteY="84dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Leaderboards"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="124dp"
+        tools:layout_editor_absoluteY="104dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button3"
+        android:layout_width="162dp"
+        android:layout_height="37dp"
+        android:background="@drawable/button_"
+        android:text="Exit"
+        android:textColor="#FAF6F6"
+        tools:layout_editor_absoluteX="124dp"
+        tools:layout_editor_absoluteY="592dp">
+
+    </androidx.appcompat.widget.AppCompatButton>
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Group 4: Quadros Copyright Inc"
+        android:textColor="#FBFAFA"
+        android:textSize="10sp"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="711dp" />
+
+    <LinearLayout
+        android:layout_width="275dp"
+        android:layout_height="229dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="65dp"
+        tools:layout_editor_absoluteY="181dp">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/table">
+
+            <!-- Header row -->
+
+            <TableRow android:background="#f2f2f2">
+
+                <TextView
+                    android:padding="8dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="155dp"
+                    android:padding="8dp"
+                    android:text="Name"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:padding="8dp"
+                    android:text="Score"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <!-- Data rows -->
+            <TableRow android:background="#dedcdc">
+
+                <TextView
+                    android:padding="8dp"
+                    android:text="1" />
+
+                <TextView
+                    android:padding="8dp"
+                    android:text="John" />
+
+                <TextView
+                    android:padding="8dp"
+                    android:text="80" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#f2f2f2">
+
+                <TextView
+                    android:padding="8dp"
+                    android:text="2" />
+
+                <TextView
+                    android:padding="8dp"
+                    android:text="Jane" />
+
+                <TextView
+                    android:padding="8dp"
+                    android:text="90" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#dedcdc">
+
+                <TextView
+                    android:padding="8dp"
+                    android:text="3" />
+
+                <TextView
+                    android:padding="8dp"
+                    android:text="John" />
+
+                <TextView
+                    android:padding="8dp"
+                    android:text="80" />
+            </TableRow>
+
+        </TableLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
